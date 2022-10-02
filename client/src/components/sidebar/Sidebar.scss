@@ -1,0 +1,12 @@
+$dark: #241b33;
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    width: 15%;
+    background: $dark;
+    color: #FFF;
+    height: 100%;
+}

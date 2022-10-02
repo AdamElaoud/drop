@@ -1,0 +1,14 @@
+.card {
+    position: relative;
+    background-color: #ced4da;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    width: 25rem;
+    min-height: 2rem;
+}
+
+.card-title {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+}

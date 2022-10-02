@@ -1,0 +1,32 @@
+
+
+$highlightColor: #3a3b3d;
+$baseColor: #96969e;
+
+.sidebaritem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: $baseColor;
+    
+    &:hover {
+        background-color: $highlightColor;
+        cursor: pointer;
+    }
+
+    &.selected {
+        color: #FFF;
+    }
+}
+
+.sidebaritem-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.sidebaritem-text {
+    font-size: 1.25rem;
+}
